@@ -1,5 +1,3 @@
-# webshell_navigator.sh
-
 # Webshell Navigator
 
 ## Descripción
