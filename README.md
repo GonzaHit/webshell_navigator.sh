@@ -28,3 +28,23 @@ Webshell Navigator es una herramienta en Bash que permite interactuar con una we
    ```bash
    chmod +x webshell_navigator.sh
 
+## Ejemplo de Uso:
+$ ./webshell_navigator.sh:
+Introduce la URL base de la webshell (ejemplo: http://172.17.0.2/shell.php?parameter=): http://172.17.0.2/shell.php?parameter=
+Introduce el comando a ejecutar (o 'exit' para salir): whoami
+
+Salida del comando:
+
+www-data
+
+Introduce el comando a ejecutar (o 'exit' para salir): ls /tmp
+
+Salida del comando:
+
+[!] No se encontró nada.
+
+Introduce el comando a ejecutar (o 'exit' para salir): exit
+
+[!] Saliendo... Los resultados se han guardado en webshell_output.txt
+
+
